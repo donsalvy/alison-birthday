@@ -66,6 +66,7 @@ h1,
     background-size: cover;
 cursor: pointer;
 
+
 }
 
 .gift-section{
@@ -99,6 +100,7 @@ h3{
     margin-top: 20px;
     border: 6px solid red;
     border-radius: 10px;
+    margin-left: 50px;
 }
 
 #hot-giff:hover{
@@ -121,6 +123,7 @@ h3{
     background-image: url("images/bia-drinkingbeer.gif");
     background-size: cover;
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 #cheers-img:hover{
     background-image: url("images/birthday\ giff.gif");
