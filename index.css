@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Happy Monkey', cursive  ;
+    text-align:center ;
+    margin-top: 40px;
+    background-color: #a2d2ff;
+    color: #ffffff;
+}
+
+.header{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#bff{
+    width: 150px;
+    border-radius:50%;
+    border: 6px solid #EFB0C9; 
+    margin-top: 20px;
+}
+
+#bday-age{
+padding: 5px 10px;
+margin: 10px 0 15px 0;
+border-radius: 5px
+}
+#bday-date{
+    padding: 5px 10px;
+    margin:0;
+    border-radius: 5px 
+}
+
+h1,
+#bday-date,
+#bday-age{
+    text-shadow:1px 2px 1px black;
+}
+#bday-date,
+#bday-age{
+    background-color: #EFB0C9;
+}
+
+/*image design**/
+
+#bday-img{
+   background-image: url("images/bday.jpg");
+   background-size: cover;
+   width: 400px;
+   border: 6px solid goldenrod;
+   border-radius: 10px;
+   height: 400px;
+   margin-left: 50px;
+
+}
+
+#bday-img:hover{
+    background-image:url("images/myWoman.jpg");
+    background-size: cover;
+cursor: pointer;
+
+}
+
+.gift-section{
+    background-color: ;
+    margin-top: 20px;
+
+}
+
+#first-gift{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+
+/* third [part-------------*/
+
+.second-gif{
+    margin-top: 30px;
+}
+
+#hot-giff{
+    background-image: url("images/holiday-classics-elf.gif");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border: 6px solid red;
+    border-radius: 10px;
+}
+
+#hot-giff:hover{
+    background-image: url("images/happy-birthday-to-you-feliz-cumpleanos.gif");
+    background-size: cover;
+    cursor: pointer;
+}
+
+/* this is the last part/*/
+
+.cheers{
+    margin: 20px 0 20px 0;
+}
+
+#cheers-img{
+    width: 400px;
+    height: 200px;
+    border: 6px solid #EFB0C9;
+    border-radius: 10px;
+    background-image: url("images/bia-drinkingbeer.gif");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+#cheers-img:hover{
+    background-image: url("images/birthday\ giff.gif");
+}
+
